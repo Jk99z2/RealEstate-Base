@@ -14,12 +14,12 @@
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-md-end align-items-center justify-content-end">
-          <div class="col-md-6 text p-4 ftco-animate">
+          <div class="col-md-6 text p-4 ftco-animate" style="border-top-right-radius: 15px;">
             <h1 class="mb-3">Florida 5, Pinecrest, FL</h1>
             <span class="location d-block mb-3"><i class="icon-my_location"></i> Melbourne, Vic 3004</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             <span class="price">$28,000</span>
-            <a href="#" class="btn-custom p-3 px-4 bg-primary">View Details <span class="icon-plus ml-1"></span></a>
+            <a href="#" class="btn-custom p-3 px-4 bg-primary" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">View Details <span class="icon-plus ml-1"></span></a>
           </div>
         </div>
         </div>
@@ -97,7 +97,7 @@
     				<div class="properties-slider owl-carousel ftco-animate">
     					<div class="item">
 		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg); border-top-right-radius: 15px; border-top-left-radius: 15px;">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -116,111 +116,7 @@
 		    					</div>
 		    				</div>
 	    				</div>
-	    				<div class="item">
-		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-2.jpg);">
-		    						<div class="icon d-flex justify-content-center align-items-center">
-		    							<span class="icon-search2"></span>
-		    						</div>
-		    					</a>
-		    					<div class="text p-3">
-		    						<div class="d-flex">
-		    							<span class="status rent">Rent</span>
-		    							<div class="one">
-				    						<h3><a href="#">North Parchmore Street</a></h3>
-				    						<p>Apartment</p>
-			    						</div>
-			    						<div class="two">
-			    							<span class="price">$2,000 <small>/ month</small></span>
-		    							</div>
-		    						</div>
-		    					</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-3.jpg);">
-		    						<div class="icon d-flex justify-content-center align-items-center">
-		    							<span class="icon-search2"></span>
-		    						</div>
-		    					</a>
-		    					<div class="text p-3">
-		    						<span class="status sale">Sale</span>
-		    						<div class="d-flex">
-		    							<div class="one">
-				    						<h3><a href="#">North Parchmore Street</a></h3>
-				    						<p>Apartment</p>
-			    						</div>
-			    						<div class="two">
-			    							<span class="price">$20,000</span>
-		    							</div>
-		    						</div>
-		    					</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-4.jpg);">
-		    						<div class="icon d-flex justify-content-center align-items-center">
-		    							<span class="icon-search2"></span>
-		    						</div>
-		    					</a>
-		    					<div class="text p-3">
-		    						<span class="status sale">Sale</span>
-		    						<div class="d-flex">
-		    							<div class="one">
-				    						<h3><a href="#">North Parchmore Street</a></h3>
-				    						<p>Apartment</p>
-			    						</div>
-			    						<div class="two">
-			    							<span class="price">$20,000</span>
-		    							</div>
-		    						</div>
-		    					</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-5.jpg);">
-		    						<div class="icon d-flex justify-content-center align-items-center">
-		    							<span class="icon-search2"></span>
-		    						</div>
-		    					</a>
-		    					<div class="text p-3">
-		    						<span class="status rent">Rent</span>
-		    						<div class="d-flex">
-		    							<div class="one">
-				    						<h3><a href="#">North Parchmore Street</a></h3>
-				    						<p>Apartment</p>
-			    						</div>
-			    						<div class="two">
-			    							<span class="price">$900 <small>/ month</small></span>
-		    							</div>
-		    						</div>
-		    					</div>
-		    				</div>
-	    				</div>
-	    				<div class="item">
-		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-6.jpg);">
-		    						<div class="icon d-flex justify-content-center align-items-center">
-		    							<span class="icon-search2"></span>
-		    						</div>
-		    					</a>
-		    					<div class="text p-3">
-		    						<span class="status sale">Sale</span>
-		    						<div class="d-flex">
-		    							<div class="one">
-				    						<h3><a href="#">North Parchmore Street</a></h3>
-				    						<p>Apartment</p>
-			    						</div>
-			    						<div class="two">
-			    							<span class="price">$20,000</span>
-		    							</div>
-		    						</div>
-		    					</div>
-		    				</div>
-	    				</div>
+
     				</div>
     			</div>
     		</div>

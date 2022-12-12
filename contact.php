@@ -51,7 +51,7 @@
         </div>
         <div class="row block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-white p-5 contact-form">
+            <form action="#" class="bg-white p-5 contact-form" style="border-radius: 15px;">
               <div class="form-group">
                 <input type="text" class="form-control" placeholder="Your Name">
               </div>
@@ -72,7 +72,7 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div id="map" class="bg-white"></div>
+          	<div id="map" class="bg-white" style="border-radius: 15px;"></div>
           </div>
         </div>
       </div>

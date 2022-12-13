@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ochoa Real Estate Services</title>
+    <title>Royal Estate - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<?php include 'links.php' ?>
@@ -14,12 +14,12 @@
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-md-end align-items-center justify-content-end">
-          <div class="col-md-6 text p-4 ftco-animate" style="border-top-right-radius: 15px;">
+          <div class="col-md-6 text p-4 ftco-animate">
             <h1 class="mb-3">Florida 5, Pinecrest, FL</h1>
             <span class="location d-block mb-3"><i class="icon-my_location"></i> Melbourne, Vic 3004</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             <span class="price">$28,000</span>
-            <a href="#" class="btn-custom p-3 px-4 bg-primary" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">View Details <span class="icon-plus ml-1"></span></a>
+            <a href="#" class="btn-custom p-3 px-4 bg-primary">View Details <span class="icon-plus ml-1"></span></a>
           </div>
         </div>
         </div>
@@ -40,6 +40,206 @@
         </div>
       </div>
     </section>
+
+    <section class="ftco-search">
+    	<div class="container">
+	    	<div class="row">
+					<div class="col-md-12 search-wrap">
+						<h2 class="heading h5 d-flex align-items-center pr-4"><span class="ion-ios-search mr-3"></span> Search Property</h2>
+						<form action="#" class="search-property">
+	        		<div class="row">
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Keyword</label>
+	          				<div class="form-field">
+	          					<div class="icon"><span class="icon-pencil"></span></div>
+			                <input type="text" class="form-control" placeholder="Keyword">
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Location</label>
+	          				<div class="form-field">
+	          					<div class="icon"><span class="icon-pencil"></span></div>
+			                <input type="text" class="form-control" placeholder="City/Locality Name">
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Property Type</label>
+	        					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select name="" id="" class="form-control">
+	                      	<option value="">Type</option>
+	                        <option value="">Commercial</option>
+	                        <option value="">- Office</option>
+	                        <option value="">Residential</option>
+	                        <option value="">Villa</option>
+	                        <option value="">Condominium</option>
+	                        <option value="">Apartment</option>
+	                      </select>
+	                    </div>
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Property Status</label>
+	        					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select name="" id="" class="form-control">
+	                      	<option value="">Type</option>
+	                        <option value="">Rent</option>
+	                        <option value="">Sale</option>
+	                      </select>
+	                    </div>
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Agents</label>
+	        					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select name="" id="" class="form-control">
+	                      	<option value="">Any</option>
+	                        <option value="">Jonh Doe</option>
+	                        <option value="">Doe Mags</option>
+	                        <option value="">Kenny Scott</option>
+	                        <option value="">Emily Storm</option>
+	                      </select>
+	                    </div>
+			              </div>
+		              </div>
+	        			</div>
+	        		</div>
+
+	        		<div class="row">
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Min Beds</label>
+	        					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select name="" id="" class="form-control">
+	                      	<option value="">1</option>
+	                        <option value="">2</option>
+	                        <option value="">3</option>
+	                        <option value="">4</option>
+	                        <option value="">5</option>
+	                      </select>
+	                    </div>
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Min Bathroom</label>
+	        					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select name="" id="" class="form-control">
+	                      	<option value="">1</option>
+	                        <option value="">2</option>
+	                        <option value="">3</option>
+	                        <option value="">4</option>
+	                        <option value="">5</option>
+	                      </select>
+	                    </div>
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Min Price</label>
+	        					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select name="" id="" class="form-control">
+	                      	<option value="">Min Price</option>
+	                        <option value="">$1,000</option>
+	                        <option value="">$5,000</option>
+	                        <option value="">$10,000</option>
+	                        <option value="">$50,000</option>
+	                        <option value="">$100,000</option>
+	                        <option value="">$200,000</option>
+	                        <option value="">$300,000</option>
+	                        <option value="">$400,000</option>
+	                        <option value="">$500,000</option>
+	                        <option value="">$600,000</option>
+	                        <option value="">$700,000</option>
+	                        <option value="">$800,000</option>
+	                        <option value="">$900,000</option>
+	                        <option value="">$1,000,000</option>
+	                      </select>
+	                    </div>
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Min Price</label>
+	        					<div class="form-field">
+	          					<div class="select-wrap">
+	                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+	                      <select name="" id="" class="form-control">
+	                      	<option value="">Min Price</option>
+	                        <option value="">$5,000</option>
+	                        <option value="">$10,000</option>
+	                        <option value="">$50,000</option>
+	                        <option value="">$100,000</option>
+	                        <option value="">$200,000</option>
+	                        <option value="">$300,000</option>
+	                        <option value="">$400,000</option>
+	                        <option value="">$500,000</option>
+	                        <option value="">$600,000</option>
+	                        <option value="">$700,000</option>
+	                        <option value="">$800,000</option>
+	                        <option value="">$900,000</option>
+	                        <option value="">$1,000,000</option>
+	                        <option value="">$2,000,000</option>
+	                      </select>
+	                    </div>
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Min Area <span>(sq ft)</span></label>
+	          				<div class="form-field">
+	          					<div class="icon"><span class="icon-pencil"></span></div>
+			                <input type="text" class="form-control" placeholder="Min Area">
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-items-end">
+	        				<div class="form-group">
+	        					<label for="#">Max Area <span>(sq ft)</span></label>
+	          				<div class="form-field">
+	          					<div class="icon"><span class="icon-pencil"></span></div>
+			                <input type="text" class="form-control" placeholder="Max Area">
+			              </div>
+		              </div>
+	        			</div>
+	        			<div class="col-md align-self-end">
+	        				<div class="form-group">
+	        					<div class="form-field">
+			                <input type="submit" value="Search" class="form-control btn btn-primary">
+			              </div>
+		              </div>
+	        			</div>
+	        		</div>
+	        	</form>
+					</div>
+	    	</div>
+	    </div>
+    </section>
+
 
     <section class="ftco-section bg-light">
       <div class="container">
@@ -97,7 +297,7 @@
     				<div class="properties-slider owl-carousel ftco-animate">
     					<div class="item">
 		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg); border-top-right-radius: 15px; border-top-left-radius: 15px;">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg);">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -116,7 +316,111 @@
 		    					</div>
 		    				</div>
 	    				</div>
-
+	    				<div class="item">
+		    				<div class="properties">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-2.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-search2"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<div class="d-flex">
+		    							<span class="status rent">Rent</span>
+		    							<div class="one">
+				    						<h3><a href="#">North Parchmore Street</a></h3>
+				    						<p>Apartment</p>
+			    						</div>
+			    						<div class="two">
+			    							<span class="price">$2,000 <small>/ month</small></span>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+		    				<div class="properties">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-3.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-search2"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<span class="status sale">Sale</span>
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3><a href="#">North Parchmore Street</a></h3>
+				    						<p>Apartment</p>
+			    						</div>
+			    						<div class="two">
+			    							<span class="price">$20,000</span>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+		    				<div class="properties">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-4.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-search2"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<span class="status sale">Sale</span>
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3><a href="#">North Parchmore Street</a></h3>
+				    						<p>Apartment</p>
+			    						</div>
+			    						<div class="two">
+			    							<span class="price">$20,000</span>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+		    				<div class="properties">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-5.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-search2"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<span class="status rent">Rent</span>
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3><a href="#">North Parchmore Street</a></h3>
+				    						<p>Apartment</p>
+			    						</div>
+			    						<div class="two">
+			    							<span class="price">$900 <small>/ month</small></span>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+	    				</div>
+	    				<div class="item">
+		    				<div class="properties">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-6.jpg);">
+		    						<div class="icon d-flex justify-content-center align-items-center">
+		    							<span class="icon-search2"></span>
+		    						</div>
+		    					</a>
+		    					<div class="text p-3">
+		    						<span class="status sale">Sale</span>
+		    						<div class="d-flex">
+		    							<div class="one">
+				    						<h3><a href="#">North Parchmore Street</a></h3>
+				    						<p>Apartment</p>
+			    						</div>
+			    						<div class="two">
+			    							<span class="price">$20,000</span>
+		    							</div>
+		    						</div>
+		    					</div>
+		    				</div>
+	    				</div>
     				</div>
     			</div>
     		</div>
@@ -249,9 +553,234 @@
     		</div>
     	</div>
     </section>
-	
-    <?php include 'footer.php'; ?>
 
+    <section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(images/bg_1.jpg);">
+    	<div class="container">
+    		<div class="row justify-content-center mb-3 pb-3">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <h2 class="mb-4">Some fun facts</h2>
+          </div>
+        </div>
+    		<div class="row justify-content-center">
+    			<div class="col-md-10">
+		    		<div class="row">
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="9000">0</strong>
+		                <span>Happy Customers</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="10000">0</strong>
+		                <span>Properties</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="1000">0</strong>
+		                <span>Agents</span>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+		            <div class="block-18 text-center">
+		              <div class="text">
+		                <strong class="number" data-number="100">0</strong>
+		                <span>Awards</span>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+	        </div>
+        </div>
+    	</div>
+    </section>
+
+
+    <section class="ftco-section testimony-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 ftco-animate">
+          	<div class="row ftco-animate">
+		          <div class="col-md-12">
+		            <div class="carousel-testimony owl-carousel ftco-owl">
+		              <div class="item">
+		                <div class="testimony-wrap py-4 pb-5">
+		                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+		                  </div>
+		                  <div class="text text-center">
+		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Clients</span>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="item">
+		                <div class="testimony-wrap py-4 pb-5">
+		                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+		                  </div>
+		                  <div class="text text-center">
+		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Agent</span>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="item">
+		                <div class="testimony-wrap py-4 pb-5">
+		                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+		                  </div>
+		                  <div class="text text-center">
+		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Client</span>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="item">
+		                <div class="testimony-wrap py-4 pb-5">
+		                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+		                  </div>
+		                  <div class="text text-center">
+		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Client</span>
+		                  </div>
+		                </div>
+		              </div>
+		              <div class="item">
+		                <div class="testimony-wrap py-4 pb-5">
+		                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
+		                    <span class="quote d-flex align-items-center justify-content-center">
+		                      <i class="icon-quote-left"></i>
+		                    </span>
+		                  </div>
+		                  <div class="text text-center">
+		                    <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Client</span>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <span class="subheading">Read Articles</span>
+            <h2>Recent Blog</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text mt-3 d-block">
+                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                <div class="meta mb-3">
+                  <div><a href="#">Dec 6, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text mt-3">
+                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                <div class="meta mb-3">
+                  <div><a href="#">Dec 6, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text mt-3">
+                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                <div class="meta mb-3">
+                  <div><a href="#">Dec 6, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="blog-entry align-self-stretch">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_4.jpg');">
+              </a>
+              <div class="text mt-3">
+                <h3 class="heading mt-3"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                <div class="meta mb-3">
+                  <div><a href="#">Dec 6, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>Subcribe to our Newsletter</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+              <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-8">
+                  <form action="#" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+	
   <!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 

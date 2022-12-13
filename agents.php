@@ -4,17 +4,18 @@
     <title>Royal Estate - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<?php include 'links.php'; ?>
+    
+	<?php include 'links.php' ?>
   </head>
   <body>
 	<?php include 'nav.php'; ?>
 
-    <div class="hero-wrap" style="background-image: url('images/bg_1.jpg');">
+    <div class="hero-wrap" style="background-image: url('images/bg_1.jpg'); border-radius: 0px !important;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Agents</span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Agents</span></p>
             <h1 class="mb-3 bread">Agents</h1>
           </div>
         </div>
@@ -200,6 +201,5 @@
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
   <?php include 'scripts.php'; ?>
-  
   </body>
 </html>

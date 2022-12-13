@@ -4941,12 +4941,12 @@ button.close {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: var(--orange) !important; }
+  background-color: #78d5ef !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: orange !important; }
+  background-color: #4ac7ea !important; }
 
 .bg-secondary {
   background-color: #6c757d !important; }
@@ -7902,7 +7902,7 @@ h1, h2, h3, h4, h5,
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
-  border-radius: 30px; }
+  border-radius: 25px; }
   .services .icon {
     line-height: 1.3;
     position: relative; }
@@ -7926,8 +7926,8 @@ h1, h2, h3, h4, h5,
   .properties .img {
     display: block;
     height: 250px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;}
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px; }
   .properties .icon {
     width: 60px;
     height: 60px;
@@ -7951,8 +7951,8 @@ h1, h2, h3, h4, h5,
     border-top: 1px solid transparent;
     background: #fff;
     position: relative;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px; }
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px; }
     .properties .text span.status {
       position: absolute;
       top: -30px;
@@ -7960,16 +7960,14 @@ h1, h2, h3, h4, h5,
       padding: 2px 15px;
       color: #fff; }
       .properties .text span.status.sale {
-        background: var(--orange);
-        border-top-right-radius: 15px; }
+        background: var(--orange); }
       .properties .text span.status.rent {
-        background: var(--cyan);
-        border-top-right-radius: 15px; }
+        background: #ff8f56; }
     .properties .text h3 {
       font-size: 17px;
       margin-bottom: 5px; }
       .properties .text h3 a {
-        color: var(--orange) }
+        color: var(--orange); }
     .properties .text span.listing {
       font-size: 14px; }
     .properties .text .one {
@@ -7980,7 +7978,7 @@ h1, h2, h3, h4, h5,
       .properties .text .two .price {
         font-weight: 400;
         font-size: 16px;
-        color: var(--orange); }
+        color: #f05d23; }
         .properties .text .two .price small {
           display: block;
           color: #b3b3b3; }
@@ -8013,7 +8011,8 @@ h1, h2, h3, h4, h5,
 
 .properties-img {
   height: 400px;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  border-radius: 25px; }
 
 .properties-single h2 {
   font-size: 28px; }
@@ -8033,8 +8032,7 @@ h1, h2, h3, h4, h5,
 .staff {
   margin-bottom: 60px; }
   .staff .img {
-    height: 270px;
-    border-radius: 20px; }
+    height: 270px; }
   .staff .text h3 {
     font-size: 18px;
     margin-bottom: 0;
@@ -8508,7 +8506,8 @@ textarea.form-control {
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center center;
+  border-radius: 25px; }
 
 .testimony-section {
   position: relative; }
@@ -8739,8 +8738,7 @@ textarea.form-control {
   background-position: center center;
   height: 250px;
   position: relative;
-  display: block;
-  border-radius: 20px; }
+  display: block; }
 
 @media (min-width: 768px) {
   .blog-entry {
@@ -8945,10 +8943,11 @@ textarea.form-control {
 
 .contact-section .info {
   width: 100%;
-  border-radius: 20px; }
+  border-radius: 25px; }
 
 .contact-section .contact-form {
-  width: 100%; }
+  width: 100%; 
+  border-radius: 25px; }
 
 .block-9 .form-control {
   outline: none !important;

@@ -7961,11 +7961,17 @@ h1, h2, h3, h4, h5,
       color: #fff; }
       .properties .text span.status.sale {
 <<<<<<< HEAD
+<<<<<<< HEAD
         background: var(--orange);
         border-top-right-radius: 15px; }
       .properties .text span.status.rent {
         background: var(--cyan);
         border-top-right-radius: 15px; }
+=======
+        background: #26baee; }
+      .properties .text span.status.rent {
+        background: #ff8f56; }
+>>>>>>> parent of 63eb6ab (Swap HTML for PHP extension)
 =======
         background: #26baee; }
       .properties .text span.status.rent {

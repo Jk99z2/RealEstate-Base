@@ -14,12 +14,12 @@
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-md-end align-items-center justify-content-end">
-          <div class="col-md-6 text p-4 ftco-animate">
+          <div class="col-md-6 text p-4 ftco-animate" style="border-top-right-radius: 25px;">
             <h1 class="mb-3">Florida 5, Pinecrest, FL</h1>
             <span class="location d-block mb-3"><i class="icon-my_location"></i> Melbourne, Vic 3004</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
             <span class="price">$28,000</span>
-            <a href="#" class="btn-custom p-3 px-4 bg-primary">View Details <span class="icon-plus ml-1"></span></a>
+            <a href="#" class="btn-custom p-3 px-4 bg-primary" style="border-top-left-radius: 25px; border-top-right-radius:25px;">View Details <span class="icon-plus ml-1"></span></a>
           </div>
         </div>
         </div>
@@ -45,7 +45,7 @@
     	<div class="container">
 	    	<div class="row">
 					<div class="col-md-12 search-wrap">
-						<h2 class="heading h5 d-flex align-items-center pr-4"><span class="ion-ios-search mr-3"></span> Search Property</h2>
+						<h2 class="heading h5 d-flex align-items-center pr-4" style="border-top-right-radius: 25px; border-top-left-radius: 25px;"><span class="ion-ios-search mr-3" style="border-top-left-radius: 25px;"></span> Search Property</h2>
 						<form action="#" class="search-property">
 	        		<div class="row">
 	        			<div class="col-md align-items-end">
@@ -297,7 +297,7 @@
     				<div class="properties-slider owl-carousel ftco-animate">
     					<div class="item">
 		    				<div class="properties">
-		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg);">
+		    					<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg); border-radius: 0px !important; border-top-right-radius: 25px !important; border-top-left-radius: 25px !important;">
 		    						<div class="icon d-flex justify-content-center align-items-center">
 		    							<span class="icon-search2"></span>
 		    						</div>
@@ -440,7 +440,7 @@
     		<div class="row">
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="properties">
-    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg);">
+    					<a href="#" class="img img-2 d-flex justify-content-center align-items-center" style="background-image: url(images/properties-1.jpg); border-radius: 0px !important; border-top-right-radius: 25px !important; border-top-left-radius: 25px !important;">
     						<div class="icon d-flex justify-content-center align-items-center">
     							<span class="icon-search2"></span>
     						</div>

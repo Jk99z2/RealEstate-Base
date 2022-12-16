@@ -1,4 +1,9 @@
 <?php
+include './db/db.php';
+$select_basic = $db->prepare("SELECT * FROM rstate_data WHERE id = '0'");
+$select_basic->execute();
+$result = $select_basic->fetch(PDO::FETCH_ASSOC);
+
 if(isset($_SESSION['admin_login']) == 1)
 {
 	error_reporting(0);
@@ -7,11 +12,13 @@ if(isset($_SESSION['admin_login']) == 1)
 	$components = explode('/', $path);
 	$first_part = $components[1];
 	$second_part = $components[2];
+
+	
 	?>
 	<!-- Comienza Nav -->
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<img src="../images/logos/logochoa.png" alt="" class="navbar-brand" style="  display: block; margin-left: auto; margin-right: auto;"><a class="navbar-brand" href="../">Ochoa Real<span>&nbsp;Estate Services</span></a>
+			<a class="navbar-brand" href="../"><img src="../images/logos/<?php echo $result['logo']; ?>" alt="Logo" class="navbar-brand" style="  display: block; margin-left: auto; margin-right: auto; width: 12rem; height: 7.5rem; padding-right: 10px;"></a><a class="navbar-brand" href="../"><?php echo $result['name']; ?></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="oi oi-menu"></span> Menú
 			</button>
@@ -45,7 +52,7 @@ elseif(isset($_SESSION['personal_login'])==1)
 	<!-- Comienza Nav -->
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<img src="../images/logos/logochoa.png" alt="" class="navbar-brand" style="  display: block; margin-left: auto; margin-right: auto;"><a class="navbar-brand" href="../">Ochoa Real<span>&nbsp;Estate Services</span></a>
+			<a class="navbar-brand" href="../"><img src="../images/logos/<?php echo $result['logo']; ?>" alt="Logo" class="navbar-brand" style="  display: block; margin-left: auto; margin-right: auto; width: 12rem; height: 7.5rem; padding-right: 10px;"></a><a class="navbar-brand" href="../"><?php echo $result['name']; ?></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="oi oi-menu"></span> Menú
 			</button>
@@ -79,7 +86,7 @@ else
 	<!-- Comienza Nav -->
 	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 		<div class="container">
-			<img src="../images/logos/logochoa.png" alt="" class="navbar-brand" style="  display: block; margin-left: auto; margin-right: auto;"><a class="navbar-brand" href="../">Ochoa Real<span>&nbsp;Estate Services</span></a>
+			<a class="navbar-brand" href="../"><img src="../images/logos/<?php echo $result['logo']; ?>" alt="Logo" class="navbar-brand" style="  display: block; margin-left: auto; margin-right: auto; width: 12rem; height: 7.5rem; padding-right: 10px;"></a><a class="navbar-brand" href="../"><?php echo $result['name']; ?></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="oi oi-menu"></span> Menú
 			</button>

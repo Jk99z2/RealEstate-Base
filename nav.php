@@ -1,10 +1,11 @@
 <?php
-include './db/db.php';
+
+include 'db/db.php';
 $select_basic = $db->prepare("SELECT * FROM rstate_data WHERE id = '0'");
 $select_basic->execute();
 $result = $select_basic->fetch(PDO::FETCH_ASSOC);
 
-if(isset($_SESSION['admin_login']) == 1)
+if(isset($_SESSION['admin']) == 1)
 {
 	error_reporting(0);
 	$directoryURI = $_SERVER['REQUEST_URI'];
@@ -26,6 +27,7 @@ if(isset($_SESSION['admin_login']) == 1)
 			<div class="collapse navbar-collapse" id="ftco-nav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item <?php if ($first_part=="/" or $first_part=="") {echo "active"; } else  {echo "noactive";}?>" id="index"><a href="../" class="nav-link">Inicio</a></li>
+					<li class="nav-item <?php if ($first_part=="dashboard") {echo "active"; } else  {echo "noactive";}?>" id="index"><a href="admin/dashboard" class="nav-link">Dashboard</a></li>
 					<li class="nav-item <?php if ($first_part=="categories") {echo "active"; } else  {echo "noactive";}?>"><a href="../categorias" class="nav-link">Categorias</a></li>
 					<li class="nav-item <?php if ($first_part=="agents") {echo "active"; } else  {echo "noactive";}?>"><a href="../agents" class="nav-link">Agentes</a></li>
 					<li class="nav-item <?php if ($first_part=="about") {echo "active"; } else  {echo "noactive";}?>"><a href="../about" class="nav-link">Sobre</a></li>
@@ -40,7 +42,7 @@ if(isset($_SESSION['admin_login']) == 1)
 	<!-- Termina nav -->
     <?php
 }
-elseif(isset($_SESSION['personal_login'])==1)
+elseif(isset($_SESSION['agent'])==1)
 {
 	error_reporting(0);
 	$directoryURI = $_SERVER['REQUEST_URI'];

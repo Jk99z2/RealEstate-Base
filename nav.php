@@ -29,7 +29,7 @@ if(isset($_SESSION['admin']) == 1)
 					</p>
 				</div>
 				<div class="col d-flex justify-content-end">
-					<p class="num"><span class="icon-phone"></span> + 1700 12345 6789</p>
+					<p class="num"><span class="icon-phone"></span> +52 <?php $text = $result['tel']; echo substr($text, 0, 3) . " " . substr($text, 3, 2) . " " .substr($text, 5, 5); ?></p>
 				</div>
 			</div>
 		</div>
@@ -81,7 +81,7 @@ elseif(isset($_SESSION['agent'])==1)
 					</p>
 				</div>
 				<div class="col d-flex justify-content-end">
-					<p class="num"><span class="icon-phone"></span> + 1700 12345 6789</p>
+					<p class="num"><span class="icon-phone"></span> +52 <?php $text = $result['tel']; echo substr($text, 0, 3) . " " . substr($text, 3, 2) . " " .substr($text, 5, 5); ?></p>
 				</div>
 			</div>
 		</div>
@@ -132,7 +132,7 @@ else
 					</p>
 				</div>
 				<div class="col d-flex justify-content-end">
-					<p class="num"><span class="icon-phone"></span> + 1700 12345 6789</p>
+					<p class="num"><span class="icon-phone"></span> +52 <?php $text = $result['tel']; echo substr($text, 0, 3) . " " . substr($text, 3, 2) . " " .substr($text, 5, 5); ?></p>
 				</div>
 			</div>
 		</div>

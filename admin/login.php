@@ -1,11 +1,11 @@
 <?php
-    session_start();
 
+	session_start();
     include '../db/db.php';
     if(isset($_SESSION['admin'])){
         header('Location: ../index');
     }
-    if(isset($_SESSION['user'])){
+    if(isset($_SESSION['agent'])){
         header('Location: ../index');
     }
 
@@ -51,12 +51,12 @@
 							switch($dbrole)		//inicio de sesión de usuario base de roles
 							{
 								case "2":
-									$_SESSION["admin_login"]=$email;			
+									$_SESSION["admin"]=$email;			
 									$loginMsg="Administrador logueado; redirigiendo...";	
 										header("refresh:2; ../");	
 									break;
 								case "1";
-									$_SESSION["agent_login"]=$email;				
+									$_SESSION["agent"]=$email;				
 									$loginMsg="Agente logueado; redirigiendo...";		
 									header("refresh:2; ../");	
 									break;	

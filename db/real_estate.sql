@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2022 at 12:29 AM
+-- Generation Time: Dec 17, 2022 at 07:26 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -131,18 +131,23 @@ CREATE TABLE IF NOT EXISTS `rstate_data` (
   `id` int(11) NOT NULL,
   `name` varchar(20) NOT NULL,
   `logo` varchar(20) NOT NULL,
+  `street` varchar(60) NOT NULL,
   `location` varchar(30) NOT NULL,
+  `postal_code` varchar(20) NOT NULL,
   `email` varchar(30) NOT NULL,
   `tel` varchar(10) NOT NULL,
-  `cel` varchar(10) NOT NULL
+  `cel` varchar(10) NOT NULL,
+  `fb` varchar(80) NOT NULL,
+  `tw` varchar(80) NOT NULL,
+  `ins` varchar(80) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `rstate_data`
 --
 
-INSERT INTO `rstate_data` (`id`, `name`, `logo`, `location`, `email`, `tel`, `cel`) VALUES
-(0, 'Demo Real Estate', 'logo.png', 'Manzanillo, Colima', 'demo@email.com', '3141234567', '3143312345');
+INSERT INTO `rstate_data` (`id`, `name`, `logo`, `street`, `location`, `postal_code`, `email`, `tel`, `cel`, `fb`, `tw`, `ins`) VALUES
+(0, 'Demo Real Estate', 'logo.png', 'Lluvia de Oro #57, Arboledas', 'Manzanillo, Colima', '28219', 'demo@email.com', '3143312345', '3141234567', 'https://www.facebook.com/ochoainmobiliaria', '', '');
 
 -- --------------------------------------------------------
 

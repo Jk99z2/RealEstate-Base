@@ -1,3 +1,5 @@
+<!-- Scripts necesarios para la página -->
+
 <script src="/js/jquery.min.js"></script>
 <script src="/js/jquery-migrate-3.0.1.min.js"></script>
 <script src="/js/popper.min.js"></script>

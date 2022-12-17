@@ -1,3 +1,5 @@
+<!-- Referencias, estilos y librerias para los estilos -->
+
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
 <link rel="stylesheet" href="/css/open-iconic-bootstrap.min.css">

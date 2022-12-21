@@ -53,7 +53,7 @@
 								case "2":
 									$_SESSION["admin"]=$email;			
 									$loginMsg="Administrador logueado; redirigiendo...";	
-										header("refresh:2; ../");	
+										header("refresh:2; ../admin/dashboard");	
 									break;
 								case "1";
 									$_SESSION["agent"]=$email;				

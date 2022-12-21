@@ -1,8 +1,14 @@
-<?php session_start(); ?>
+<?php session_start(); 
+include 'db/db.php';
+$select_basic = $db->prepare("SELECT * FROM rstate_data WHERE id = '0'");
+$select_basic->execute();
+$result = $select_basic->fetch(PDO::FETCH_ASSOC);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Royal Estate - Free Bootstrap 4 Template by Colorlib</title>
+    <title><?php echo $result['name']; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<?php include 'links.php' ?>
